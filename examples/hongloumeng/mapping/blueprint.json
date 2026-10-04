@@ -1,0 +1,162 @@
+[
+  {
+    "node": "new_1",
+    "coordinate": "001-001-002"
+  },
+  {
+    "node": "new_2",
+    "coordinate": "102-121-112"
+  },
+  {
+    "node": "new_3",
+    "coordinate": "211-111-211"
+  },
+  {
+    "node": "new_4",
+    "coordinate": "221-122-102"
+  },
+  {
+    "node": "new_5",
+    "coordinate": "001-000-002"
+  },
+  {
+    "node": "new_6",
+    "coordinate": "211-112-121"
+  },
+  {
+    "node": "new_7",
+    "coordinate": "221-111-211"
+  },
+  {
+    "node": "new_8",
+    "coordinate": "221-122-202"
+  },
+  {
+    "node": "new_9",
+    "coordinate": "220-122-211"
+  },
+  {
+    "node": "new_10",
+    "coordinate": "221-122-112"
+  },
+  {
+    "node": "new_11",
+    "coordinate": "211-111-212"
+  },
+  {
+    "node": "new_12",
+    "coordinate": "210-122-210"
+  },
+  {
+    "node": "new_13",
+    "coordinate": "220-112-101"
+  },
+  {
+    "node": "new_14",
+    "coordinate": "211-111-111"
+  },
+  {
+    "node": "new_15",
+    "coordinate": "211-112-201"
+  },
+  {
+    "node": "new_16",
+    "coordinate": "211-122-101"
+  },
+  {
+    "node": "new_17",
+    "coordinate": "221-112-202"
+  },
+  {
+    "node": "new_18",
+    "coordinate": "220-112-111"
+  },
+  {
+    "node": "new_19",
+    "coordinate": "222-212-212"
+  },
+  {
+    "node": "new_20",
+    "coordinate": "222-222-222"
+  },
+  {
+    "node": "new_21",
+    "coordinate": "211-122-211"
+  },
+  {
+    "node": "new_22",
+    "coordinate": "221-122-202"
+  },
+  {
+    "node": "new_23",
+    "coordinate": "211-112-202"
+  },
+  {
+    "node": "new_24",
+    "coordinate": "221-122-212"
+  },
+  {
+    "node": "new_25",
+    "coordinate": "220-122-011"
+  },
+  {
+    "node": "new_26",
+    "coordinate": "221-112-212"
+  },
+  {
+    "node": "new_27",
+    "coordinate": "211-112-202"
+  },
+  {
+    "node": "new_28",
+    "coordinate": "211-112-202"
+  },
+  {
+    "node": "new_29",
+    "coordinate": "210-111-212"
+  },
+  {
+    "node": "new_30",
+    "coordinate": "221-222-212"
+  },
+  {
+    "node": "new_31",
+    "coordinate": "221-222-211"
+  },
+  {
+    "node": "new_32",
+    "coordinate": "220-222-201"
+  },
+  {
+    "node": "new_33",
+    "coordinate": "220-122-101"
+  },
+  {
+    "node": "new_34",
+    "coordinate": "220-222-202"
+  },
+  {
+    "node": "new_35",
+    "coordinate": "222-222-212"
+  },
+  {
+    "node": "new_36",
+    "coordinate": "211-222-202"
+  },
+  {
+    "node": "new_37",
+    "coordinate": "211-112-211"
+  },
+  {
+    "node": "new_38",
+    "coordinate": "221-112-221"
+  },
+  {
+    "node": "new_39",
+    "coordinate": "211-112-212"
+  },
+  {
+    "node": "new_40",
+    "coordinate": "221-112-221"
+  }
+]
