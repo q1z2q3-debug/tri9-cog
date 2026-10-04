@@ -1,0 +1,50 @@
+[
+  {
+    "node": "new_1",
+    "coordinate": "221-111-200"
+  },
+  {
+    "node": "new_2",
+    "coordinate": "011-111-001"
+  },
+  {
+    "node": "new_3",
+    "coordinate": "011-000-001"
+  },
+  {
+    "node": "new_4",
+    "coordinate": "011-000-001"
+  },
+  {
+    "node": "new_5",
+    "coordinate": "221-222-200"
+  },
+  {
+    "node": "new_6",
+    "coordinate": "120-101-010"
+  },
+  {
+    "node": "new_7",
+    "coordinate": "121-222-221"
+  },
+  {
+    "node": "new_8",
+    "coordinate": "011-000-001"
+  },
+  {
+    "node": "new_9",
+    "coordinate": "021-000-200"
+  },
+  {
+    "node": "new_10",
+    "coordinate": "211-112-100"
+  },
+  {
+    "node": "new_11",
+    "coordinate": "202-112-201"
+  },
+  {
+    "node": "new_12",
+    "coordinate": "001-100-001"
+  }
+]

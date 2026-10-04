@@ -1,0 +1,42 @@
+[
+  {
+    "node": "new_1",
+    "coordinate": "011-112-110"
+  },
+  {
+    "node": "new_2",
+    "coordinate": "021-111-010"
+  },
+  {
+    "node": "new_3",
+    "coordinate": "012-111-010"
+  },
+  {
+    "node": "new_4",
+    "coordinate": "012-111-010"
+  },
+  {
+    "node": "new_5",
+    "coordinate": "011-112-010"
+  },
+  {
+    "node": "new_6",
+    "coordinate": "012-212-010"
+  },
+  {
+    "node": "new_7",
+    "coordinate": "012-112-011"
+  },
+  {
+    "node": "new_8",
+    "coordinate": "011-000-010"
+  },
+  {
+    "node": "new_9",
+    "coordinate": "012-112-021"
+  },
+  {
+    "node": "new_10",
+    "coordinate": "011-212-010"
+  }
+]

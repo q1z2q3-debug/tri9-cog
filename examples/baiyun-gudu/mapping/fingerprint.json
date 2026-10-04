@@ -1,0 +1,96 @@
+{
+  "nodes": 12,
+  "unique_codes": 10,
+  "code_range": [
+    973,
+    18945
+  ],
+  "entropy_total": 1.5391,
+  "entropy_triad": {
+    "T": 1.5245,
+    "S": 1.5391,
+    "C": 1.3844
+  },
+  "mode_per_dim": {
+    "T1": 0,
+    "T2": 1,
+    "T3": 1,
+    "S1": 1,
+    "S2": 0,
+    "S3": 0,
+    "C1": 0,
+    "C2": 0,
+    "C3": 1
+  },
+  "triad_center": {
+    "T": 1,
+    "S": 0,
+    "C": 0
+  },
+  "turning_points": [
+    {
+      "interval": "004→005",
+      "dims_changed": 7,
+      "code_delta": 16028
+    },
+    {
+      "interval": "007→008",
+      "dims_changed": 7,
+      "code_delta": 9474
+    },
+    {
+      "interval": "005→006",
+      "dims_changed": 7,
+      "code_delta": 7737
+    },
+    {
+      "interval": "006→007",
+      "dims_changed": 7,
+      "code_delta": 1183
+    },
+    {
+      "interval": "009→010",
+      "dims_changed": 6,
+      "code_delta": 11304
+    },
+    {
+      "interval": "011→012",
+      "dims_changed": 5,
+      "code_delta": 14004
+    },
+    {
+      "interval": "001→002",
+      "dims_changed": 4,
+      "code_delta": 15326
+    },
+    {
+      "interval": "010→011",
+      "dims_changed": 4,
+      "code_delta": 1448
+    },
+    {
+      "interval": "008→009",
+      "dims_changed": 3,
+      "code_delta": 2204
+    },
+    {
+      "interval": "002→003",
+      "dims_changed": 3,
+      "code_delta": 351
+    }
+  ],
+  "path": [
+    18594,
+    3268,
+    2917,
+    2917,
+    18945,
+    11208,
+    12391,
+    2917,
+    5121,
+    16425,
+    14977,
+    973
+  ]
+}

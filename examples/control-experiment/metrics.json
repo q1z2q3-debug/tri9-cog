@@ -1,0 +1,176 @@
+{
+  "baseline": {
+    "name": "hongloumeng",
+    "sample": "all 120 chapters (public domain)",
+    "fingerprint": {
+      "nodes": 120,
+      "unique_codes": 84,
+      "code_range": [
+        0,
+        18952
+      ],
+      "entropy_total": 1.3929,
+      "entropy_triad": {
+        "T": 1.4143,
+        "S": 1.155,
+        "C": 1.5056
+      },
+      "triad_center": {
+        "T": 0,
+        "S": 0,
+        "C": 0
+      },
+      "mode_per_dim": {
+        "T1": 0,
+        "T2": 1,
+        "T3": 1,
+        "S1": 1,
+        "S2": 0,
+        "S3": 0,
+        "C1": 0,
+        "C2": 1,
+        "C3": 0
+      }
+    }
+  },
+  "controls": [
+    {
+      "name": "sanguoyanyi",
+      "label": "historical romance (chapters 1-10, public domain)",
+      "fingerprint": {
+        "nodes": 10,
+        "unique_codes": 9,
+        "code_range": [
+          2919,
+          5457
+        ],
+        "entropy_total": 1.4591,
+        "entropy_triad": {
+          "T": 1.5058,
+          "S": 1.258,
+          "C": 1.1567
+        },
+        "triad_center": {
+          "T": 1,
+          "S": 1,
+          "C": 0
+        },
+        "mode_per_dim": {
+          "T1": 0,
+          "T2": 1,
+          "T3": 1,
+          "S1": 1,
+          "S2": 1,
+          "S3": 2,
+          "C1": 0,
+          "C2": 1,
+          "C3": 0
+        }
+      },
+      "self_verify": {
+        "nodes": 10,
+        "matched": 10,
+        "mean_hamming": 0.0,
+        "entropy_story": 1.4591,
+        "entropy_target": 1.4591,
+        "entropy_delta": 0.0
+      },
+      "vs_baseline": {
+        "nodes": 10,
+        "matched": 0,
+        "mean_hamming": 4.6,
+        "entropy_story": 1.4591,
+        "entropy_target": 1.5075,
+        "entropy_delta": -0.0484
+      },
+      "vs_baiyun": {
+        "nodes": 10,
+        "matched": 0,
+        "mean_hamming": 5.3,
+        "entropy_story": 1.4591,
+        "entropy_target": 1.5401,
+        "entropy_delta": -0.081
+      }
+    },
+    {
+      "name": "baiyun-gudu",
+      "label": "One Hundred Years of Solitude ch.1 (trans. Fan Ye, local-only annotation)",
+      "fingerprint": {
+        "nodes": 12,
+        "unique_codes": 10,
+        "code_range": [
+          973,
+          18945
+        ],
+        "entropy_total": 1.5391,
+        "entropy_triad": {
+          "T": 1.5245,
+          "S": 1.5391,
+          "C": 1.3844
+        },
+        "triad_center": {
+          "T": 1,
+          "S": 0,
+          "C": 0
+        },
+        "mode_per_dim": {
+          "T1": 0,
+          "T2": 1,
+          "T3": 1,
+          "S1": 1,
+          "S2": 0,
+          "S3": 0,
+          "C1": 0,
+          "C2": 0,
+          "C3": 1
+        }
+      },
+      "self_verify": {
+        "nodes": 12,
+        "matched": 12,
+        "mean_hamming": 0.0,
+        "entropy_story": 1.5391,
+        "entropy_target": 1.5391,
+        "entropy_delta": 0.0
+      },
+      "vs_baseline": {
+        "nodes": 12,
+        "matched": 0,
+        "mean_hamming": 5.083,
+        "entropy_story": 1.5391,
+        "entropy_target": 1.4915,
+        "entropy_delta": 0.0476
+      },
+      "vs_sanguo": {
+        "nodes": 12,
+        "matched": 0,
+        "mean_hamming": 5.333,
+        "entropy_story": 1.5391,
+        "entropy_target": 1.438,
+        "entropy_delta": 0.1011
+      }
+    }
+  ],
+  "cross_matrix": {
+    "sanguo_vs_baseline": {
+      "matched": "0/10",
+      "mean_hamming": 4.6,
+      "entropy_delta": -0.0484
+    },
+    "baiyun_vs_baseline": {
+      "matched": "0/12",
+      "mean_hamming": 5.083,
+      "entropy_delta": 0.0476
+    },
+    "sanguo_vs_baiyun": {
+      "matched": "0/10 & 0/12",
+      "mean_hamming": 5.3,
+      "entropy_delta": 0.08
+    },
+    "self_all": {
+      "sanguo": "10/10",
+      "baiyun": "12/12",
+      "baseline": "40/40 (v0.1)"
+    }
+  }
+}
