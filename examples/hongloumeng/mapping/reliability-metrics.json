@@ -1,0 +1,162 @@
+{
+  "method": "inter-annotator agreement, 15 sampled chapters (seed 19683, stratified 1-40/41-80/81-120, 5 each)",
+  "chapters": [
+    "001",
+    "002",
+    "019",
+    "028",
+    "036",
+    "041",
+    "048",
+    "052",
+    "054",
+    "063",
+    "081",
+    "099",
+    "104",
+    "109",
+    "118"
+  ],
+  "n_chapters": 15,
+  "coordinate_level": {
+    "agree": 0,
+    "total": 15,
+    "agreement": 0.0
+  },
+  "code_level_note": "code is a bijection of coordinate (base-3 weighted sum), so code-level agreement equals coordinate-level by construction",
+  "per_dimension": {
+    "T1": {
+      "Po": 1.0,
+      "Pe": 0.76,
+      "kappa": 1.0,
+      "primary_dist": {
+        "2": 1,
+        "1": 1,
+        "0": 13
+      },
+      "reannot_dist": {
+        "2": 1,
+        "1": 1,
+        "0": 13
+      }
+    },
+    "T2": {
+      "Po": 0.6,
+      "Pe": 0.4044,
+      "kappa": 0.3284,
+      "primary_dist": {
+        "2": 3,
+        "0": 5,
+        "1": 7
+      },
+      "reannot_dist": {
+        "1": 9,
+        "2": 1,
+        "0": 5
+      }
+    },
+    "T3": {
+      "Po": 0.8667,
+      "Pe": 0.6711,
+      "kappa": 0.5946,
+      "primary_dist": {
+        "1": 13,
+        "0": 2
+      },
+      "reannot_dist": {
+        "1": 11,
+        "0": 4
+      }
+    },
+    "S1": {
+      "Po": 0.7333,
+      "Pe": 0.4667,
+      "kappa": 0.5,
+      "primary_dist": {
+        "2": 1,
+        "1": 7,
+        "0": 7
+      },
+      "reannot_dist": {
+        "1": 11,
+        "0": 4
+      }
+    },
+    "S2": {
+      "Po": 0.6,
+      "Pe": 0.44,
+      "kappa": 0.2857,
+      "primary_dist": {
+        "2": 1,
+        "0": 9,
+        "1": 5
+      },
+      "reannot_dist": {
+        "1": 9,
+        "0": 6
+      }
+    },
+    "S3": {
+      "Po": 0.8,
+      "Pe": 0.56,
+      "kappa": 0.5455,
+      "primary_dist": {
+        "1": 3,
+        "0": 12
+      },
+      "reannot_dist": {
+        "1": 6,
+        "0": 9
+      }
+    },
+    "C1": {
+      "Po": 0.9333,
+      "Pe": 0.4933,
+      "kappa": 0.8684,
+      "primary_dist": {
+        "2": 1,
+        "1": 4,
+        "0": 10
+      },
+      "reannot_dist": {
+        "2": 1,
+        "1": 5,
+        "0": 9
+      }
+    },
+    "C2": {
+      "Po": 0.4667,
+      "Pe": 0.4089,
+      "kappa": 0.0977,
+      "primary_dist": {
+        "2": 6,
+        "1": 8,
+        "0": 1
+      },
+      "reannot_dist": {
+        "1": 11,
+        "0": 4
+      }
+    },
+    "C3": {
+      "Po": 0.6667,
+      "Pe": 0.64,
+      "kappa": 0.0741,
+      "primary_dist": {
+        "0": 11,
+        "1": 4
+      },
+      "reannot_dist": {
+        "0": 12,
+        "1": 3
+      }
+    }
+  },
+  "mean_kappa_9dim": 0.4772,
+  "interpretation": "kappa<0.2 slight, 0.21-0.40 fair, 0.41-0.60 moderate, 0.61-0.80 substantial, >0.81 almost perfect (Landis & Koch 1977)",
+  "caveats": [
+    "n=15 per dimension; kappa penalized by skewed marginals (base rates)",
+    "Po (raw agreement) reported alongside kappa; both stated per dimension",
+    "reannotation performed independently from primary mapping, on same judging rubric"
+  ]
+}
