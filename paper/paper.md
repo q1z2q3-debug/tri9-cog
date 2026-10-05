@@ -1,6 +1,6 @@
 # A Ternary Cognitive Space for Literary Structure: Mapping, Fingerprinting, and Replication
 
-**Working draft — v0.2** · tri9-cog project, open-source repository: https://github.com/q1z2q3-debug/tri9-cog
+**Manuscript — v1.0 (archived)** · tri9-cog project, open-source repository: https://github.com/q1z2q3-debug/tri9-cog · Zenodo: https://doi.org/10.5281/zenodo.23172839
 Author: RUNZEAI · Corresponding author: q1z2q3@gmail.com
 
 ---
@@ -383,10 +383,9 @@ pytest tests/               # 18 tests, all green
   (Section 7.1; baiyun contains coordinates only, no copyrighted text);
 - E. `tingyunlou/` — the *Tingyunlou* replication case (Section 6.3).
 
-**Zenodo archive plan.** Upon final acceptance, the complete benchmark (nodes CSVs, fingerprints,
-reliability files, and the paper itself) will be archived on Zenodo with a permanent DOI; archive metadata
-will use the corresponding email `q1z2q3@gmail.com` (Zenodo token available in the project's CI secret
-store; credentials are never committed to the repository).
+**Zenodo archive.** The complete benchmark (nodes CSVs, fingerprints, reliability files, and the paper
+itself) is archived on Zenodo: https://doi.org/10.5281/zenodo.23172839 (v1.0; archive metadata uses the
+corresponding email `q1z2q3@gmail.com`; credentials are never committed to the repository).
 
 ---
 
@@ -432,5 +431,4 @@ vol. 33, no. 1, pp. 159–174, 1977.
 
 ---
 
-**Metadata note (Chinese).** 中文标题：《三元九维认知空间：文学结构的映射、指纹与再创作》。中文摘要随最终版本附录
-提供。本文档为英文正文（作者默认输出语言），final 版本可附中文标题与摘要。
+**Metadata note (Chinese).** 中文标题：《三元九维认知空间：文学结构的映射、指纹与再创作》。中文摘要：本文提出一个可计算、可复现的文学结构分析框架——三元九维认知空间。该空间由时间、空间、因果三个元轴、九个维度、每维三种状态构成，共 3⁹ = 19683 个格位。每个情节节点对应唯一坐标与整数编码（0–19682），编码与坐标互为双射。我们以《红楼梦》全 120 回公版文本为基准完成映射：84 个唯一编码、结构指纹熵 H≈1.3929（均匀上限 log₂3≈1.58496）、重心 (0,0,0)，并将其解读为"日常生活的悲剧"。通过 15 回分层抽样验证标注一致性（平均 Cohen's κ=0.477，T1 与 C1 近乎完美）；以《三国演义》1–10 回与《百年孤独》第 1 回为对照组检验区分度（跨语料 0 匹配、平均汉明距离 4.6–5.3）；并于反向闭环中验证 40 节点镜像蓝图 40/40 逐节点零偏差复现。整套框架以开源 CLI 与可复现基准数据发布。本文档正文为英文（作者默认输出语言），中文标题与摘要作为归档元数据附录。

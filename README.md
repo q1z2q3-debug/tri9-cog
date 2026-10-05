@@ -2,6 +2,8 @@
 
 **A formalized ternary cognitive coordinate system for literary structure: 3 elements × 9 dimensions × 3 states = 19,683 status cells. Read, measure, fingerprint, and regenerate stories.**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23172839.svg)](https://doi.org/10.5281/zenodo.23172839)
+
 ## What is this?
 
 Most literary analysis is intuitive: *"I understood this novel, but I can't say exactly what the understanding is."*
