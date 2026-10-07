@@ -1,0 +1,32 @@
+{
+  "title": "A Ternary Cognitive Space for Literary Structure: Mapping, Fingerprinting, and Replication",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "description": "Formal framework: a ternary cognitive space (T/S/C axes x 9 dimensions x 3 states = 3^9 = 19,683 cells) for reproducible literary structure analysis. Complete annotation of the 120-chapter public-domain *Dream of the Red Chamber* yields 84 unique codes with fingerprint entropy H=1.3929 (uniform bound log2(3)=1.58496), triad entropies T/S/C=1.4143/1.1550/1.5056 and structural center (0,0,0) interpreted as 'daily-life tragedy'. Reliability: mean Cohen's kappa=0.477 over 15 stratified chapters. Discriminative control: zero cross-corpus matches vs *Romance of the Three Kingdoms* (ch.1-10) and *One Hundred Years of Solitude* (ch.1, translated; no copyrighted text redistributed). Reverse replication: 40-node mirror blueprint reproduced 40/40 at zero Hamming distance. Open-source CLI (tri9cog, MIT) and reproducible benchmark data included. Chinese abstract is appended in the paper metadata section.",
+  "creators": [
+    {
+      "name": "RUNZEAI",
+      "affiliation": "Independent Researcher"
+    }
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "version": "v1.0",
+  "keywords": [
+    "computational narratology",
+    "digital humanities",
+    "narrative fingerprint",
+    "ternary encoding",
+    "structural analysis",
+    "reproducibility",
+    "Hong Lou Meng",
+    "19683"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/q1z2q3-debug/tri9-cog",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
